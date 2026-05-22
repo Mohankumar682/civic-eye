@@ -1,0 +1,150 @@
+/* Map Component Styles */
+.map-wrapper {
+  height: 500px;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.map-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.map {
+  border-radius: 1rem !important;
+}
+
+/* Leaflet custom overrides */
+.leaflet-popup-content {
+  font-family: inherit;
+}
+
+.map-popup {
+  max-width: none !important;
+}
+
+.popup-content {
+  padding: 0;
+  margin: 0;
+}
+
+.popup-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--text-primary);
+}
+
+.popup-content .category {
+  font-size: 0.8rem;
+  color: #3b82f6;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.popup-content .description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.popup-badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.popup-badges .badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.badge.priority-high {
+  background: #dc2626;
+}
+
+.badge.priority-medium {
+  background: #f59e0b;
+}
+
+.badge.priority-low {
+  background: #10b981;
+}
+
+.badge.status-pending {
+  background: #ef4444;
+}
+
+.badge.status-in-progress {
+  background: #f59e0b;
+}
+
+.badge.status-resolved {
+  background: #10b981;
+}
+
+.popup-content .upvotes {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Custom Leaflet Icon Styles */
+.custom-icon {
+  border: 2px solid white !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Marker clustering styles (if implementing in future) */
+.marker-cluster {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .map-wrapper {
+    height: 350px;
+  }
+}
