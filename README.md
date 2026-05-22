@@ -2,18 +2,18 @@
 
 Advanced full-stack civic issue reporting platform with intelligent AI-powered features, real-time mapping, and admin analytics.
 
-## 🌟 Features
+## Features
 
 ### Core Features
-- **🔐 Authentication**: Secure user & admin role-based authentication with JWT
-- **📝 Issue Reporting**: Report issues with images, descriptions, and precise locations
-- **🤖 AI-Powered Classification**: Automatic category detection and priority assignment
-- **📍 Interactive Map**: Real-time visualization of all issues with clustering and hotspots
-- **👍 Upvote System**: Community engagement - upvote issues to increase visibility
-- **📊 Status Tracking**: Track issue lifecycle from pending → in-progress → resolved
-- **⏱️ Analytics**: Comprehensive admin dashboard with resolution metrics
-- **🔔 Notifications**: Real-time notifications for status updates and engagement
-- **💎 Modern UI**: Beautiful responsive design with animations and gradients
+- ** Authentication**: Secure user & admin role-based authentication with JWT
+- ** Issue Reporting**: Report issues with images, descriptions, and precise locations
+- ** AI-Powered Classification**: Automatic category detection and priority assignment
+- ** Interactive Map**: Real-time visualization of all issues with clustering and hotspots
+- ** Upvote System**: Community engagement - upvote issues to increase visibility
+- ** Status Tracking**: Track issue lifecycle from pending → in-progress → resolved
+- ** Analytics**: Comprehensive admin dashboard with resolution metrics
+- ** Notifications**: Real-time notifications for status updates and engagement
+- ** Modern UI**: Beautiful responsive design with animations and gradients
 
 ### Tech Stack
 - **Frontend**: React 19 + Vite + React Router + Leaflet
@@ -23,7 +23,7 @@ Advanced full-stack civic issue reporting platform with intelligent AI-powered f
 - **Mapping**: Leaflet & OpenStreetMap
 - **Styling**: CSS3 with animations and modern design tokens
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Backend Setup
 
@@ -138,7 +138,7 @@ civic-eye/
 ### Analytics (Admin only)
 - `GET /api/analytics` - Get comprehensive analytics data
 
-## 🎨 Design Tokens & Styling
+##  Design Tokens & Styling
 
 The application uses a modern dark theme with customizable CSS variables:
 
@@ -154,7 +154,7 @@ The application uses a modern dark theme with customizable CSS variables:
 --text-secondary: #cbd5e1 /* Light gray */
 ```
 
-## 🔑 Key Components
+##  Key Components
 
 ### IssueCard
 Displays individual issue with:
@@ -194,7 +194,7 @@ Real-time notifications with:
 - Mark as read functionality
 - Notification types (status_change, upvote, new_issue)
 
-## 🤖 AI Features
+## AI Features
 
 ### Auto-Classification
 - **Category Detection**: Analyzes issue description to predict category
@@ -217,7 +217,7 @@ Automatically suggests responsible department based on category:
 - Water → Water Supply Board
 - Drainage → Municipal Engineering
 
-## 📊 Analytics Metrics
+##  Analytics Metrics
 
 Admin dashboard provides:
 - **Total Issues**: Complete count
@@ -229,7 +229,7 @@ Admin dashboard provides:
 - **Top Upvoted Issues**: Most popular 5 issues
 - **Issues Per Day**: 30-day trend
 
-## 🔐 Security
+##  Security
 
 - JWT token-based authentication
 - Password hashing with bcryptjs
@@ -238,7 +238,7 @@ Admin dashboard provides:
 - CORS enabled for frontend-backend communication
 - Secure file upload handling
 
-## 📱 Responsive Design
+##  Responsive Design
 
 Fully responsive across:
 - Desktop (1200px+)
@@ -251,7 +251,7 @@ Mobile-specific optimizations:
 - Optimized map height
 - Full-screen modals
 
-## 🚢 Deployment Guide
+##  Deployment Guide
 
 ### Frontend Deployment (Vercel/Netlify)
 ```bash
@@ -275,7 +275,7 @@ PORT=5000
 2. Get connection string
 3. Add to .env as MONGO_URI
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### MongoDB Connection Error
 ```
@@ -303,7 +303,7 @@ Verify React Leaflet components are properly used
 Check console for OpenStreetMap errors
 ```
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - Image recognition using ML models
 - Real-time notifications using WebSockets
@@ -317,7 +317,7 @@ Check console for OpenStreetMap errors
 - Integration with government databases
 - Multi-language support
 
-## 💡 Usage Tips
+##  Usage Tips
 
 1. **Admin Testing**: Register with role "admin" to access dashboard
 2. **Auto-Classification**: Submit issue with descriptive text for AI to tag
@@ -325,11 +325,11 @@ Check console for OpenStreetMap errors
 4. **Images**: Provide clear photos of issues for better validation
 5. **Status Updates**: Only admins can update statuses to track progress
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 👥 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow standard git workflow:
 1. Fork the repository
@@ -338,7 +338,7 @@ Contributions are welcome! Please follow standard git workflow:
 4. Push to branch
 5. Create pull request
 
-## 📞 Support
+##  Support
 
 For issues and support:
 1. Check troubleshooting section
@@ -348,4 +348,4 @@ For issues and support:
 
 ---
 
-Built with ❤️ for smarter civic engagement
+
